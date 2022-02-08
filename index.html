@@ -20,15 +20,15 @@
             <label for="date" class="col-1 col-form-label">Date</label>
             <div class="col-5">
               <div class="input-group date" id="datepicker">
-                <input type="date" value="06-07-2022" placeholder="2022-06" class="form-control" id="date"/>
+                <input type="date" id="form-input" onchange="dateOnChange()" class="form-control" id="date"/>
               </div>
             </div>
         </form>
     </div>
 </div>
  <!--Section: News of the day-->
-<div class="row articles">
-   <div class="row w-50">
+<div class="row articles" id="content">
+ <!--  <div class="row w-50">
     <div class="col-md-6 mb-4">
         <div class="bg-image hover-overlay ripple shadow-2-strong rounded-5"
           data-mdb-ripple-color="light">
@@ -49,7 +49,7 @@
         </p>
         <button type="button" class="btn btn-primary">READ MORE</button>
       </div>
-   </div>
+   </div>-->
 </div>
   <!--Section: News of the day-->
 

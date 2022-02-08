@@ -26,7 +26,15 @@ justify-content: center;
     font-style: italic;
   }
 
-  .articles{
-    display: flex;
-    justify-content: center;    
+ .articles{
+     display: inline !important;
+    justify-content: center !important;    
  }
+
+ .list-item{
+transform: translateX(50%);
+padding-bottom: 5em;
+}
+.img-wrap{
+    padding-right: 0;
+}
